@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/*Header-----------------------------------------------------------------------------------------------*/
+
+header{
+    background-color: #161925;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header a img{
+   width: 5rem;
+}
+
+header form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+header form input{
+    width: 20rem;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+header nav ul{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+/*Article----------------------------------------------------------------------------------------------*/
+
+article{
+background-color: #1b2a41;
+display: grid;
+grid-template-columns: 17rem 59rem;
+grid-template-rows: 10rem 76rem;
+
+grid-template-areas: 
+"filtros cabecera"
+"filtros obras";
+
+column-gap: 3rem;
+row-gap: 2rem;
+}
+
+article .filtros{
+    background-color: skyblue;
+    grid-area: filtros;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+article .cabecera{
+    background-color: darkgrey;
+    grid-area: cabecera;
+    margin-top: 2rem;
+}
+
+article .obras{
+    grid-area: obras;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+article .obras div{
+    height: 18rem;
+    width: 15rem;
+}
+
+article div div img{
+    width: 12rem;
+    height: 12rem;
+}
+
+article .obras div p{
+    color: white;
+    height:3rem;
+    width:12rem;
+}
+
+/*Footer-----------------------------------------------------------------------------------------------*/
+
+footer{
+    background-color: grey;
+    height: 5rem;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+footer div a{
+    color: white;
+}
+
+footer div p{
+    color: white;
+}
