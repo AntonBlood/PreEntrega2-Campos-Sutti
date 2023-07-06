@@ -112,3 +112,40 @@ footer div p{
 
 
 
+
+/*MOBILE----------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 425px){
+
+    
+    
+    header form{
+        width: 4rem;
+
+    }
+    
+    header form input{
+        width: 4rem;
+    }
+    
+    
+    .opnavbar{
+        width: 11rem;
+  
+    }
+    
+    .opnavbar__o a{
+        font-size: 0.7rem;
+    }
+    
+    /*Section---------------------------------------------------------------------------------------------*/
+    
+    section{
+        height: 130rem;
+    }
+
+
+
+}
+

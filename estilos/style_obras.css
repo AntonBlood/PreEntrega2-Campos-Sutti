@@ -49,6 +49,7 @@ header nav ul{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    list-style: none;
 }
 
 header nav ul li a{
@@ -130,4 +131,54 @@ footer div a{
 
 footer div p{
     color: white;
+}
+
+
+
+
+/*MOBILE----------------------------------------------------------------------------------------*/
+
+
+@media(max-width: 425px){
+
+    
+
+    header form{
+        width: 1rem;
+    }
+    
+    header form input{
+        width: 5rem;
+    }
+    
+    
+    header nav ul{
+        width: 11rem;
+    
+    }
+    
+    
+    header nav ul li a{
+        font-size: 0.7rem;
+    }
+    
+    header div ul li a {
+        font-size:0.7rem;
+    }
+
+/*Article----------------------------------------------------------------------------------------------*/
+
+article{
+display: grid;
+grid-template-columns: 0rem 20rem;
+grid-template-rows: 10rem 250rem;
+
+grid-template-areas: 
+"filtros cabecera"
+"filtros obras";
+
+column-gap: 3rem;
+row-gap: 2rem;
+}
+
 }

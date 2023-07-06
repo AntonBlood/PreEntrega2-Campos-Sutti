@@ -167,3 +167,127 @@ footer div a{
 footer div p{
     color: white;
 }
+
+
+
+
+
+
+
+
+/*MOBILE-----------------------------------------------------------------------------------------*/
+
+@media (max-width: 425px){
+
+    header form{
+        width: 4rem;
+
+    }
+    
+    header form input{
+        width: 4rem;
+    }
+    
+    
+    .opnavbar{
+        width: 11rem;
+  
+    }
+    
+    .opnavbar__o a{
+        font-size: 0.7rem;
+    }
+    
+    
+
+    
+    /*Section1-----------------------------------------------------------------------------------------*/
+    
+    .section1{
+        height: 60rem;
+        background-color:  #1b2a41;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .section1 div{
+        background-color: aqua;
+        width: 25rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content:center;
+        align-items: center;
+    
+    }
+    
+    .section1 div p{
+    color: black;
+    font-size: 1rem;
+    }
+    
+    .section1 div img{
+        height: 20rem;
+    }
+    
+    /*Section2-------------------------------------------------------------------------------------------*/
+    
+
+    .section2{
+        height: 120rem;
+        background-color:#1b2a41 ;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .section2 div{
+        background-color: aqua;
+        width: 15rem;
+        height: 20rem;
+    }
+    
+    
+    /*Section3-------------------------------------------------------------------------------------------*/
+    
+    .section3{
+        height: 60rem;
+        background-color: #1b2a41 ;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+    .section3 div{
+        background-color: aqua;
+        width: 25rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .section3 div img{
+        height: 18rem;
+        width: 20rem;
+    }
+    
+    .section3 div p{
+        font-size: 1rem;
+    }
+
+
+
+}
