@@ -1,0 +1,41 @@
+.articulo2{ /*Article2--------------------------------------*/
+    background-color: cadetblue;
+    height: 22rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    div{
+
+        background-color: #1b2a41;
+        width: 21rem;
+        height: 18rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+
+        a{
+            h2{
+                color: white;
+            }  
+
+            .i1{
+                width: 18rem;
+                }
+
+            .i2{
+
+                width: 18rem;
+            }
+
+            .i3{
+                width: 10rem;
+                }
+        }
+    }
+
+}

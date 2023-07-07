@@ -1,0 +1,13 @@
+{
+  "name": "2da-pre-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main:scss": "sass --watch ./estilos/scss/main.scss ./estilos/css/style_index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

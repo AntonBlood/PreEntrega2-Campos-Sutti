@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import './layout/body-index';
+@import './layout/header-index';
+@import './layout/articulo1-index';
+@import './layout/articulo2-index';
+@import './layout/footer-index';
+@import './utilities/mixins-index'
+
+
